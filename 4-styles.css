@@ -95,7 +95,7 @@ a {
   opacity: 0.9;
 }
 
-/** MAIN **/
+/** MAIN SECTION**/
 
 .heading h1 {
   font-family: "Source Sans 3", sans-serif;
@@ -153,7 +153,7 @@ a {
 }
 
 .score {
-  background-image: url("images/background.png");
+  background-image: url("images/headphones_hero_2.jpg");
   height: 90vh;
   width: 100%;
 }
@@ -207,4 +207,70 @@ form {
 form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2-20px);
+  text-align: center;
+}
+
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500px;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 40%;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  background: transparent;
+  padding-left: 15px;
+  font-size: 16px;
+  border-right-width: 2px;
+  transition: all 0.3s ease;
+}
+
+form .button {
+  height: 45px;
+  margin: 45px 0;
+  text-align: center;
+}
+
+form .button input {
+  height: 100%;
+  width: 15%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  background: #ff6565;
+}
+
+.end-part {
+  background-image: url("images/footer_background.png");
+  height: 20vh;
+  width: 100%;
+}
+
+.end-part p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.08px;
+  color: #ffffff;
+  opacity: 35.17%;
+  width: 98px;
+  height: 15px;
+  margin: auto;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  line-height: 90px;
 }
