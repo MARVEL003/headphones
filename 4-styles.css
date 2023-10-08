@@ -93,9 +93,10 @@ a {
 .button a:hover {
   box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px;
   opacity: 0.9;
+  cursor: pointer;
 }
 
-/** MAIN SECTION**/
+/** MAIN **/
 
 .heading h1 {
   font-family: "Source Sans 3", sans-serif;
@@ -246,10 +247,16 @@ form .button input {
   border-radius: 20px;
   letter-spacing: 1px;
   background: #ff6565;
+  transition: 0.5s ease;
+}
+
+form .button input:hover {
+  cursor: pointer;
+  background: linear-gradient(-135deg, #e6e471, #da4653);
 }
 
 .end-part {
-  background-image: url("images/footer_background.png");
+  background-color: #071629;
   height: 20vh;
   width: 100%;
 }
@@ -273,4 +280,25 @@ form .button input {
   list-style: none;
   text-align: center;
   line-height: 90px;
+  transform: scale(0.6);
+  transition: 0.5s;
+}
+
+.app-icon {
+  transition: 0.5s;
+}
+
+.app-icon:hover {
+  cursor: pointer;
+  transform: scale(0.6) translateY(-15px);
+}
+
+#footer-image {
+  width: 120px;
+  height: 100px;
+}
+
+footerimage{
+  width: 120px;
+  height: auto;
 }

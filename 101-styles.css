@@ -154,7 +154,7 @@ html {
   }
   
   .score {
-    background-image: url("images/background.png");
+    background-image: url("images/headphones_hero_2.jpg");
     height: 90vh;
     width: 100%;
   }
@@ -208,3 +208,5 @@ html {
   form .user-details .input-box {
     margin-bottom: 15px;
   }
+
+  
