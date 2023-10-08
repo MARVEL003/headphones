@@ -292,13 +292,3 @@ form .button input:hover {
   cursor: pointer;
   transform: scale(0.6) translateY(-15px);
 }
-
-#footer-image {
-  width: 120px;
-  height: 100px;
-}
-
-footerimage{
-  width: 120px;
-  height: auto;
-}
